@@ -23,7 +23,7 @@ name: XML-Bare
 provides:
   XML::Bare:
     file: lib/XML/Bare.pm
-    version: 0.46_03
+    version: 0.47
 requires:
   Carp: 0
   DynaLoader: 0
@@ -36,7 +36,7 @@ resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=XML-Bare
   homepage: https://metacpan.org/release/XML-Bare
   repository: git://github.com/nigelm/xml-bare.git
-version: 0.46_03
+version: 0.47
 x_Dist_Zilla:
   plugins:
     -
@@ -254,6 +254,6 @@ x_Dist_Zilla:
   zilla:
     class: Dist::Zilla::Dist::Builder
     config:
-      is_trial: 1
+      is_trial: 0
     version: 4.200009
 x_authority: cpan:NIGELM

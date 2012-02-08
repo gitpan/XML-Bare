@@ -12,7 +12,7 @@ require Exporter;
 require DynaLoader;
 @ISA = qw(Exporter DynaLoader);
 
-our $VERSION = '0.46_03'; # VERSION
+our $VERSION = '0.47'; # VERSION
 our $AUTHORITY = 'cpan:NIGELM'; # AUTHORITY
 
 use vars qw($VERSION *AUTOLOAD);
@@ -804,7 +804,7 @@ XML::Bare - Minimal XML parser implemented via a C state engine
 
 =head1 VERSION
 
-version 0.46_03
+version 0.47
 
 =head1 SYNOPSIS
 

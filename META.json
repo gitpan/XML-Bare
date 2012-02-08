@@ -46,10 +46,10 @@
    "provides" : {
       "XML::Bare" : {
          "file" : "lib/XML/Bare.pm",
-         "version" : "0.46_03"
+         "version" : "0.47"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
          "mailto" : "bug-XML-Bare@rt.cpan.org",
@@ -62,7 +62,7 @@
          "web" : "http://github.com/nigelm/xml-bare"
       }
    },
-   "version" : "0.46_03",
+   "version" : "0.47",
    "x_Dist_Zilla" : {
       "plugins" : [
          {
@@ -334,7 +334,7 @@
       "zilla" : {
          "class" : "Dist::Zilla::Dist::Builder",
          "config" : {
-            "is_trial" : 1
+            "is_trial" : 0
          },
          "version" : "4.200009"
       }

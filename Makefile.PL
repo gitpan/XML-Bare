@@ -33,7 +33,7 @@ my %WriteMakefileArgs = (
     'utf8' => '0',
     'vars' => '0'
   },
-  'VERSION' => '0.46_03',
+  'VERSION' => '0.47',
   'XSOPT' => '-nolinenumbers',
   'test' => {
     'TESTS' => 't/*.t'
