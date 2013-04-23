@@ -10,7 +10,7 @@ use warnings;
 
 use Test::Harness;
 $Test::Harness::verbose=1;
-use Test::More;
+use Test::More qw(no_plan);
 
 
 use_ok('XML::Bare');
@@ -53,6 +53,3 @@ while ( my ( $name, $char ) = each %{$data} ) {
 
     is( $str, $char, "Character $name OK" );
 }
-
-
-done_testing;
